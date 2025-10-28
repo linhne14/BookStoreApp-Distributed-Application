@@ -24,7 +24,7 @@ const HomeScreen = () => {
 
   return (
     <>
-      <h1>Latest Products</h1>
+      <h1>Latest Fashion</h1>
       {error ? (
         <Message variant='danger'></Message>
       ) : (

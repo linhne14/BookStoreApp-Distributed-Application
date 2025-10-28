@@ -27,7 +27,7 @@ const Header = (props) => {
       >
         <Container>
           <LinkContainer to='/'>
-            <Navbar.Brand className='bookstore-brand'>BookStore</Navbar.Brand>
+            <Navbar.Brand className='clothingstore-brand'>👕 ClothingStore</Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>

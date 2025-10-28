@@ -14,7 +14,7 @@ services:
       MYSQL_PASSWORD: 'PaSSworD'
       MYSQL_ROOT_PASSWORD: 'r00tPaSSworD'
     ports:
-      - "3306:3306"
+      - "3307:3306"
     expose:
       - "3306"
     volumes:
@@ -104,7 +104,7 @@ services:
     environment:
       - SERVER_PORT=6001
       - ZIPKIN_HOST=bookstore-zipkin:9411
-      - SPRING_PROFILES_ACTIVE=docker
+      - SPRING_PROFILES_ACTIVE=local
 
   bookstore-order-service:
     build:
