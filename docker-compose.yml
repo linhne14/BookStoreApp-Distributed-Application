@@ -104,7 +104,7 @@ services:
     environment:
       - SERVER_PORT=6001
       - ZIPKIN_HOST=bookstore-zipkin:9411
-      - SPRING_PROFILES_ACTIVE=local
+      - SPRING_PROFILES_ACTIVE=docker
 
   bookstore-order-service:
     build:
