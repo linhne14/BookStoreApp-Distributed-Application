@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   margin: 0;
   padding: 0;
+  padding-top: 70px; /* Space for fixed header */
 }
 
 button {
@@ -115,4 +123,16 @@ p {
 
 main {
   min-height: 80vh;
+}
+
+/* Remove padding for home page hero */
+.home-page {
+  padding: 0 !important;
+}
+
+/* Section divider */
+.section-divider {
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #ff5722, #ff9800, #ffc107, transparent);
+  margin: 0;
 }
