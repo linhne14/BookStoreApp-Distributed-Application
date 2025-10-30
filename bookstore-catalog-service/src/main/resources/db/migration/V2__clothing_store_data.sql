@@ -1,4 +1,4 @@
--- ClothingStore Migration: Replace book data with clothing items
+-- ClothingStore Initial Data: Insert clothing products and categories
 -- Clear existing data
 DELETE FROM REVIEW;
 DELETE FROM PRODUCT;
